@@ -43,3 +43,9 @@
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT
+    *
+FROM
+    tbl1
+WHERE K0 NOT in('A','B')
+ORDER BY c14
